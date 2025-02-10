@@ -20,14 +20,13 @@ aside {
     grid-template-rows: repeat(autofill, minmax(1px, 300px));
     background-color: #338dc9;
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
 
 .aside-title {
     font-size: 1.7rem;
-    font-weight: bolder;
 }
 
 .aside-text {
@@ -35,7 +34,50 @@ aside {
 }
 
 header {
-    background-color: black;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-color: #fff;
+    padding: 1.5rem 2.5rem;
+}
+
+.header-section-up {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.header-section-up div {
+    display: flex;
+}
+
+.header-section-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.header-section-down-left {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border: none;
+    background-color: #e4e0e0;
+    height: 1.75rem;
+    width: 500px;
+    border-radius: 1rem;
+}
+
+button {
+    padding: 12px;
+    background-color: #338dc9;
+    border: none;
+    border-radius: 1.5rem;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 100px;
+    margin-right: 1.75rem;
 }
 
 main { 
