@@ -45,6 +45,13 @@ span {
     margin-right: 1rem;
 }
 
+.aside-text {
+    cursor: pointer;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+}
+
 .material-symbols--dashboard {
     display: inline-block;
     width: 4rem;
@@ -136,11 +143,6 @@ span {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Cpath fill='%23fff' d='m21.7 6.87l-8.5-3.78a.47.47 0 0 0-.4 0L4.3 6.87a.5.5 0 0 0-.3.45V10c0 4.92 2.94 10.88 8.82 12.94a.56.56 0 0 0 .36 0C19.06 20.88 22 14.92 22 10V7.32a.5.5 0 0 0-.3-.45m-4.012 3.31l-5.28 6.722a.88.88 0 0 1-.636.332l-.052.002a.88.88 0 0 1-.62-.257l-2.72-2.72a.875.875 0 1 1 1.24-1.237l2.022 2.022l4.67-5.945a.876.876 0 0 1 1.377 1.082z'/%3E%3C/svg%3E");
   }
 
-.aside-text {
-    margin: 16px;
-    display: flex;
-    align-items: center;
-}
 
 header {
     display: grid;
@@ -177,6 +179,7 @@ header {
 
 .header-section-up div {
     display: flex;
+    align-items: center;
 }
 
 .header-section-down {
@@ -203,15 +206,34 @@ header {
     font-weight: bolder;
 }
 
+.profile-picture-min,
+.trending-picture {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+
+
+.profile-picture-big {
+    margin-right: 1rem;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
 input {
     border: none;
     background-color: #e4e0e0;
     height: 1.75rem;
-    width: 400px;
+    width: 80%;
     border-radius: 1rem;
+    padding: 1rem;
 }
 
 button {
+    cursor: pointer;
     padding: 12px;
     background-color: #338dc9;
     border: none;
@@ -332,7 +354,7 @@ main {
 }
 
 .trending-container {
-    padding: 16px;
+    padding: 8px 0;
     background-color: #fff;
     border-radius: 8px;
 }
@@ -343,9 +365,7 @@ main {
     margin: 1rem;
 }
 
-.trending-picture {
-    margin-right: 0.75rem;
-}
+
 
 .trending-description {
     color: #636262;
