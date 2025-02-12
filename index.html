@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
 </head>
 <body>
@@ -15,21 +16,21 @@
         <header class="header">
             <div class="header-section-up">
                 <div class="header-section-up-left">
-                    <p class="search-icon">$</p>
+                    <p class="material-symbols--search"></p>
                     <input type="text">
                 </div>
                 <div class="header-section-up-right">
-                    <p class="notification-icon">$</p>
+                    <p class="basil--notification-on-outline"></p>
                     <p class="profile-picture-min">Picture</p>
                     <p class="name">Morgan Oakley</p>
                 </div>
             </div>
             <div class="header-section-down">
                 <div class="header-section-down-left">
-                    <p class="profile-picture-big">Picture</p>
+                    <p class="profile-picture-big"><img src="" alt=""></p>
                     <div class="profile-picture-text">
                         <p>Hi, there</p>
-                        <p>Morgan Oakley (@morgan)</p>
+                        <p class="name-big">Morgan Oakley (@morgan)</p>
                     </div>
                 </div>
                 <div class="header-section-down-left">
@@ -40,24 +41,112 @@
             </div>
         </header>
         <aside class="sidebar">
-            <div class="aside-section">
-                <p class="aside-title">Dashboard</p>
-            </div>
-            <div class="aside-section">
-                <p class="aside-text">Home</p>
-                <p class="aside-text">Profile</p>
-                <p class="aside-text">Messages</p>
-                <p class="aside-text">History</p>
-                <p class="aside-text">Tasks</p>
-                <p class="aside-text">Communities</p>
-            </div>
-            <div class="aside-section">
-                <p class="aside-text">Settings</p>
-                <p class="aside-text">Support</p>
-                <p class="aside-text">Privacy</p>
+            <div class="aside-container">
+                <div class="aside-section">
+                    <p  id="aside-title" class=" aside-text"><span class=" dashboard material-symbols--dashboard"></span>Dashboard</p>
+                </div>
+                <div class="aside-section">
+                    <p class="aside-text"><span class="ic--baseline-home"></span>Home</p>
+                    <p class="aside-text"><span class="flowbite--profile-card-outline"></span>Profile</p>
+                    <p class="aside-text"><span class="iconoir--message-solid"></span>Messages</p>
+                    <p class="aside-text"><span class="ri--chat-history-fill"></span>History</p>
+                    <p class="aside-text"><span class="mdi--papers"></span>Tasks</p>
+                    <p class="aside-text"><span class="fluent--people-community-32-filled"></span>Communities</p>
+                </div>
+                <div class="aside-section">
+                    <p class="aside-text"><span class="material-symbols--settings"></span>Settings</p>
+                    <p class="aside-text"><span class="ph--question-mark-fill"></span> Support</p>
+                    <p class="aside-text"><span class="garden--security-26"></span>Privacy</p>
+                </div>
             </div>
         </aside>
-        <main class="main-content"></main>
+        <main class="main-content">
+            <div class="projects-section">
+                <p class="projects-section-title">Your Projects</p>
+                <div class="projects-container">
+                    <div class="project">
+                        <p class="project-title">Super Cool Project</p>
+                        <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur obcaecati, veniam deserunt quibusdam </p>
+                        <p class="project-icons"><span class="mdi--favorite-add-outline"></span><span class="mdi--eye-plus-outline"></span> <span class="fluent--share-16-filled"></span></p>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Super Cool Project</p>
+                        <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur obcaecati, veniam deserunt quibusdam reprehenderit sint commodi fugiat sapiente, hic inventore. Libero quis sequi reprehenderit </p>
+                        <p class="project-icons"><span class="mdi--favorite-add-outline"></span><span class="mdi--eye-plus-outline"></span> <span class="fluent--share-16-filled"></span></p>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Super Cool Project</p>
+                        <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur obcaecati, veniam </p>
+                        <p class="project-icons"><span class="mdi--favorite-add-outline"></span><span class="mdi--eye-plus-outline"></span> <span class="fluent--share-16-filled"></span></p>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Super Cool Project</p>
+                        <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur obcaecati, veniam deserunt quibusdam reprehenderit sint commodi fugiat sapiente, hic inventore. </p>
+                        <p class="project-icons"><span class="mdi--favorite-add-outline"></span><span class="mdi--eye-plus-outline"></span> <span class="fluent--share-16-filled"></span></p>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Super Cool Project</p>
+                        <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur obcaecati, veniam </p>
+                        <p class="project-icons"><span class="mdi--favorite-add-outline"></span><span class="mdi--eye-plus-outline"></span> <span class="fluent--share-16-filled"></span></p>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Super Cool Project</p>
+                        <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur obcaecati, veniam deserunt quibusdam reprehenderit sint commodi fugiat sapiente, hic inventore.</p>
+                        <p class="project-icons"><span class="mdi--favorite-add-outline"></span><span class="mdi--eye-plus-outline"></span> <span class="fluent--share-16-filled"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements-section">
+                <p class="announcements-section-title">Announcements</p>
+                <div class="announcements-container">
+                    <div class="announcement">
+                        <p class="announcement-title">Site Maintenance</p>
+                        <p class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, commodi.</p>
+                    </div>
+                    <div class="announcement">
+                        <p class="announcement-title">Site Maintenance</p>
+                        <p class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, commodi.</p>
+                    </div>
+                    <div class="announcement">
+                        <p class="announcement-title">Site Maintenance</p>
+                        <p class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, commodi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-section">
+                <p class="trending-section-title">Trending</p>
+                <div class="trending-container">
+                    <div class="trending-profile">
+                        <p class="trending-picture">Picture</p>
+                        <div class="trending-text">
+                            <p class="trending-user">@tegan</p>
+                            <p class="trending-description">World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <p class="trending-picture">Picture</p>
+                        <div class="trending-text">
+                            <p class="trending-user">@tegan</p>
+                            <p class="trending-description">World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <p class="trending-picture">Picture</p>
+                        <div class="trending-text">
+                            <p class="trending-user">@tegan</p>
+                            <p class="trending-description">World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <p class="trending-picture">Picture</p>
+                        <div class="trending-text">
+                            <p class="trending-user">@tegan</p>
+                            <p class="trending-description">World Peace Builder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
 </body>
 </html>
